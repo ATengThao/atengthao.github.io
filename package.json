@@ -1,5 +1,6 @@
 {
 	"name": "atengthao.github.io",
+	"homepage": "http://ATengThao.github.io/atengthao.github.io",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -40,6 +41,5 @@
 	"devDependencies": {
 		"gh-pages": "^5.0.0",
 		"react-router-dom": "^6.11.2"
-	},
-	"homepage": "http://atengthao.github.io"
+	}
 }
