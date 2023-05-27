@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+// CSS
 import './css/index.css';
-
+import './css/navBar.css';
+import './css/style.css';
+// PAGES
 import Home from "./pages/Home";
-import NavBar from './NavBar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
