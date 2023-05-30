@@ -6,12 +6,12 @@ function useScript({url}) {
 		const script = document.createElement("script");
 
 		script.src = url;
-		script.type = "application/javascript";
-		console.log("useScript.js running!!");
+		// Needed to avoid "<" error during runtime
+		script.type = "text/babel";
+		// script.type = "application/javascript";
 		head.appendChild(script);
 		return () => {
 			head.removeChild(script);
-			console.log("head is Removing child!!");
 		}
 	}, 
 	[url]);

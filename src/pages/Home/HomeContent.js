@@ -1,8 +1,9 @@
 import { Outlet, Link } from "react-router-dom";
 import andyImage from "../../images/andythao.png"
 import useScript from "../../useScript";
+import "../../scripts/ShakePhoto.js";
 
-const shakePhotoPath = "https://github.com/ATengThao/atengthao.github.io/blob/main/src/scripts/ShakePhoto.js";
+const shakePhotoPath = "../../scripts/ShakePhoto.js";
 function HomeContent() {
 	const shakePhotoScript = useScript(shakePhotoPath);
 	return (
