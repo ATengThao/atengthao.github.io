@@ -6,7 +6,7 @@ import './css/index.css';
 import './css/navBar.css';
 import './css/style.css';
 // PAGES
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

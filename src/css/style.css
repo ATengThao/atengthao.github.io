@@ -1,4 +1,8 @@
 /* Stylesheet for EVERYTHING */
 * {
 	font-family: 'Ubuntu', sans-serif;
+	color: rgb(205, 24, 24);
+}
+body {
+	background-color: rgb(50, 30, 30);
 }

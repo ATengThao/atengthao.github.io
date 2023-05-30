@@ -1,12 +1,17 @@
+#nav {
+	background-color: rgb(17, 109, 110);
+}
+.navContent, #navBrand {
+	color: rgb(205, 24, 24);
+}
+
 #navRow {
-	width: 100%
+	width: 100%;
 }
 ul, a {
-	height: 100%
+	height: 100%;
 }
-#navLinks {
-	
-}
+
 li:hover {
 	background-color: gray;
 }
