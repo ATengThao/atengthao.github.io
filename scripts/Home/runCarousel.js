@@ -11,5 +11,5 @@ function setupBehavior() {
 		touch: false,
 		wrap: true
 	});
-	carousel.cycle();
+	// carousel.cycle();
 };

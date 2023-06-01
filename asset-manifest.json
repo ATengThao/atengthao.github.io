@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f342adb.css",
-    "main.js": "/static/js/main.c3f96c9d.js",
+    "main.css": "/static/css/main.91c29cc1.css",
+    "main.js": "/static/js/main.1db7258c.js",
+    "static/media/onlinefriendgroup.png": "/static/media/onlinefriendgroup.15bf6f58a23737437c4e.png",
+    "static/media/roshan.webp": "/static/media/roshan.3953e055281e1e90ecf0.webp",
     "static/media/andythao.png": "/static/media/andythao.cd1e9f40df3bae5de59d.png",
+    "static/media/UOMLogo.jpg": "/static/media/UOMLogo.edbe3163ffa18f08a76c.jpg",
     "static/media/stemfuse_arcade-logo-white.png": "/static/media/stemfuse_arcade-logo-white.4a8104a679bbee399539.png",
     "index.html": "/index.html",
-    "main.9f342adb.css.map": "/static/css/main.9f342adb.css.map",
-    "main.c3f96c9d.js.map": "/static/js/main.c3f96c9d.js.map"
+    "main.91c29cc1.css.map": "/static/css/main.91c29cc1.css.map",
+    "main.1db7258c.js.map": "/static/js/main.1db7258c.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f342adb.css",
-    "static/js/main.c3f96c9d.js"
+    "static/css/main.91c29cc1.css",
+    "static/js/main.1db7258c.js"
   ]
 }
