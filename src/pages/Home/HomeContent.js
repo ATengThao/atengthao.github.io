@@ -3,6 +3,10 @@ import { Outlet, Link } from "react-router-dom";
 import andyImage from "../../images/andythao.png";
 import stemfuseArcade from "../../images/stemfuse_arcade-logo-white.png";
 import game2048 from "../../images/2048_game.png";
+import UOM from "../../images/UOMLogo.jpg";
+import friends from "../../images/onlinefriendgroup.png";
+import roshan from "../../images/roshan.webp";
+import coding from "../../images/unityscript.png";
 
 import useScript from "../../useScript";
 
@@ -84,41 +88,49 @@ function HomeContent() {
 			<div className="row my-5">
 				<div className="col-2" />
 				<div className="col-8 p-5 contentBackground">
-					<h2>Pages</h2>
-					<div className="row rows-cols-1">
+					<h2>Pages to checkout</h2>
+					<div className="row p-0 m-0">
 						<div className="col">
-							<div className="card text-bg-primary">
-								<img src="" className="card-img-top" alt=""></img>
+							<div className="card text-bg-success" style={{width: "200px"}}>
+								<Link to="/education">
+									<img src={UOM} className="card-img-top" alt="University of Minnesota" style={{height: "150px"}}></img>
+								</Link>
 								<div className="card-body">
-									<h3 className="card-title text-secondary">Test Title</h3>
-									<p className="card-text">Test description</p>
+									<h4 className="card-title text-secondary">Education</h4>
+									<p className="card-text">Where I studied and received my Bachelor's</p>
 								</div>
 							</div>
 						</div>
 						<div className="col">
-							<div className="card text-bg-primary">
-								<img src="" className="card-img-top" alt=""></img>
+							<div className="card text-bg-success" style={{width: "200px"}}>
+								<Link to="/gaming">
+									<img src={roshan} className="card-img-top" alt="Roshan from DotA 2" style={{height: "150px"}}></img>
+								</Link>
 								<div className="card-body">
-									<h3 className="card-title text-secondary">Test Title</h3>
-									<p className="card-text">Test description</p>
+									<h4 className="card-title text-secondary">Video Games</h4>
+									<p className="card-text">How video games have made an influence on me</p>
 								</div>
 							</div>
 						</div>
 						<div className="col">
-							<div className="card text-bg-primary">
-								<img src="" className="card-img-top" alt=""></img>
+							<div className="card text-bg-success" style={{width: "200px"}}>
+								<Link to="/creativeart">
+									<img src={friends} className="card-img-top" alt="My Online Friend Group" style={{height: "150px"}}></img>
+								</Link>
 								<div className="card-body">
-									<h3 className="card-title text-secondary">Test Title</h3>
-									<p className="card-text">Test description</p>
+									<h4 className="card-title text-secondary">Creative Arts</h4>
+									<p className="card-text">My passion for creative arts such as drawing or writing</p>
 								</div>
 							</div>
 						</div>
 						<div className="col">
-							<div className="card text-bg-primary">
-								<img src="" className="card-img-top" alt=""></img>
+							<div className="card text-bg-success" style={{width: "200px"}}>
+								<Link to="/programming">
+									<img src={coding} className="card-img-top" alt="Starting Unity Script" style={{height: "150px"}}></img>
+								</Link>
 								<div className="card-body">
-									<h3 className="card-title text-secondary">Test Title</h3>
-									<p className="card-text">Test description</p>
+									<h4 className="card-title text-secondary text-nowrap">Programming</h4>
+									<p className="card-text">The biggest way of making my mark on the virtual world</p>
 								</div>
 							</div>
 						</div>

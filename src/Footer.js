@@ -4,7 +4,7 @@ import { Outlet, Link } from "react-router-dom";
 function Footer() {
 	return (
 		<>
-		<footer id="footer" className="nav navbar navbar-expand-lg fw-bolder p-0 sticky-bottom">
+		<footer id="footer" className="nav navbar navbar-expand-lg fw-bolder p-0">
 			<div className="container">
 				<div id="navRow" className="row justify-content-between">
 					<div className="col">
