@@ -1,9 +1,16 @@
 /* Stylesheet for EVERYTHING */
 * {
 	font-family: 'Ubuntu', sans-serif;
-	color: rgb(205, 24, 24);
+	color: #cd1818;
 }
 body {
-	background-color: rgb(50, 30, 30);
+	background-color: #321e1e;
 	min-width: 20%;
+}
+/* Bootstrap */
+:root {
+	--bs-primary: #116d6e;
+	--bs-secondary: #cd1818;
+	--bs-success: #321e1e;
+	--bs-info: #4E3636;
 }

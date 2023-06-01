@@ -28,8 +28,8 @@ function HomeContent() {
 								You may even find something interesting... or not.
 							</p>
 							<div className="d-flex justify-content-center gap-2">
-								<Link to="/about"><button type="button" className="btn btn-danger">Learn About Me</button></Link>
-								<Link to="/contact"><button type="button" className="btn btn-outline-danger">Contact Me</button></Link>
+								<Link to="/about"><button type="button" className="btn btn-secondary">Learn About Me</button></Link>
+								<Link to="/contact"><button type="button" className="btn btn-outline-secondary">Contact Me</button></Link>
 							</div>
 						</div>
 						<div className="col-1" />
@@ -85,7 +85,44 @@ function HomeContent() {
 				<div className="col-2" />
 				<div className="col-8 p-5 contentBackground">
 					<h2>Pages</h2>
-					<p>Test</p>
+					<div className="row rows-cols-1">
+						<div className="col">
+							<div className="card text-bg-primary">
+								<img src="" className="card-img-top" alt=""></img>
+								<div className="card-body">
+									<h3 className="card-title text-secondary">Test Title</h3>
+									<p className="card-text">Test description</p>
+								</div>
+							</div>
+						</div>
+						<div className="col">
+							<div className="card text-bg-primary">
+								<img src="" className="card-img-top" alt=""></img>
+								<div className="card-body">
+									<h3 className="card-title text-secondary">Test Title</h3>
+									<p className="card-text">Test description</p>
+								</div>
+							</div>
+						</div>
+						<div className="col">
+							<div className="card text-bg-primary">
+								<img src="" className="card-img-top" alt=""></img>
+								<div className="card-body">
+									<h3 className="card-title text-secondary">Test Title</h3>
+									<p className="card-text">Test description</p>
+								</div>
+							</div>
+						</div>
+						<div className="col">
+							<div className="card text-bg-primary">
+								<img src="" className="card-img-top" alt=""></img>
+								<div className="card-body">
+									<h3 className="card-title text-secondary">Test Title</h3>
+									<p className="card-text">Test description</p>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div className="col-2" />
 			</div>

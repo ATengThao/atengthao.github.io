@@ -1,0 +1,29 @@
+// From: https://getbootstrap.com/docs/5.0/customize/sass/
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "~bootstrap/scss/functions.scss";
+
+// 2. Include any default variable overrides here
+$primary: #116d6e;
+$secondary: #cd1818;
+$success: #321e1e;
+$info: #4E3636;
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "~bootstrap/scss/variables.scss";
+@import "~bootstrap/scss/mixins.scss";
+// @import "~bootstrap/scss/bootstrap-grid.scss";
+@import "~bootstrap/scss/bootstrap-utilities.scss";
+// @import "~bootstrap/scss/bootstrap-reboot.scss";
+
+// 4. Include any optional Boostrap components as you like
+// @import "~bootstrap/scss/root.scss";
+@import "~bootstrap/scss/reboot.scss";
+@import "~bootstrap/scss/type.scss";
+@import "~bootstrap/scss/images.scss";
+@import "~bootstrap/scss/containers.scss";
+@import "~bootstrap/scss/buttons.scss";
+// @import "~bootstrap/scss/carousel.scss";	// WARNING: THIS BREAKS "SLIDE"
+// @import "~bootstrap/scss/grid.scss";
+
+
+// 5. Add additional custom code here
