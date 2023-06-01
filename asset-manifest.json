@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.46a6af5e.css",
-    "main.js": "/static/js/main.3d299b7b.js",
+    "main.css": "/static/css/main.752697d9.css",
+    "main.js": "/static/js/main.b5d09806.js",
     "static/media/andythao.png": "/static/media/andythao.cd1e9f40df3bae5de59d.png",
+    "static/media/stemfuse_arcade-logo-white.png": "/static/media/stemfuse_arcade-logo-white.4a8104a679bbee399539.png",
     "index.html": "/index.html",
-    "main.46a6af5e.css.map": "/static/css/main.46a6af5e.css.map",
-    "main.3d299b7b.js.map": "/static/js/main.3d299b7b.js.map"
+    "main.752697d9.css.map": "/static/css/main.752697d9.css.map",
+    "main.b5d09806.js.map": "/static/js/main.b5d09806.js.map"
   },
   "entrypoints": [
-    "static/css/main.46a6af5e.css",
-    "static/js/main.3d299b7b.js"
+    "static/css/main.752697d9.css",
+    "static/js/main.b5d09806.js"
   ]
 }
