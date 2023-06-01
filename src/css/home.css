@@ -8,6 +8,6 @@
 	/* Mirrors the image */
 	transform: rotateY(180deg);
 }
-img {
-	object-fit:contain;
+.HomeCarousel {
+
 }
