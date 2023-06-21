@@ -1,8 +1,10 @@
 import msDrawing00 from "../../images/mspaint_pc.png";
 import msDrawing01 from "../../images/mspaint_lost.png";
+import vexblockation from "../../images/games/vexblockation.png";
 
 const gotGameURL = "https://www.stemfuse.com/GOTGame";
 const gameitURL = "https://www.stemfuse.com/product/GAMEIT";
+const hallOfFameURL = "https://educate.stemfuse.com/arcade/competition/hall-of-fame";
 function GotGameContent() {
 	return (
 		<>
@@ -26,7 +28,7 @@ function GotGameContent() {
 				</div>
 				<div className="col-3 text-center contentBackground mt-5">
 					<div className="my-5">
-						<img id="MSDrawing00" src={msDrawing00} alt="Computer" className="img-fluids"></img>
+						<img id="MSDrawing00" src={msDrawing00} alt="Computer" className="img-fluid"></img>
 						<figcaption>Brought to you by Windows 10 Paint.</figcaption>
 					</div>
 				</div>
@@ -36,7 +38,7 @@ function GotGameContent() {
 				<div className="col-2" />
 				<div className="col-4 contentBackground text-center">
 					<div className="my-5">
-						<img id="MSDrawing01" src={msDrawing01} alt="Confused on where to go from here" className="img-fluids"></img>
+						<img id="MSDrawing01" src={msDrawing01} alt="Confused on where to go from here" className="img-fluid"></img>
 						<figcaption>It was difficult to choose what kind of video game I wanted to make.</figcaption>
 					</div>
 				</div>
@@ -62,11 +64,85 @@ function GotGameContent() {
 			</div>
 			<div className="row">
 				<div className="col-2" />
+				<div className="col-8 contentBackground">
+					<h1>My Games</h1>
+					<p>
+						The total number of games I have made are close to five.
+						Out of that many, I think only four have ever been submitted into the Got Game competition.
+						And out of those four, only three have placed in the top three; with the one never even getting its chance to be displayed.
+						Though I would love to show all the games I've ever made in Construct 2, 
+							the ones I will show are available to be played on the <a href={hallOfFameURL} target="_blank" rel="noopener noreferrer">Got Game Hall of Fame</a>,
+							so I will be talking about these three instead.
+					</p>
+				</div>
+				<div className="col-2" />
+			</div>
+			<div className="row">
+				<div className="col-2" />
+				<div className="col-1 contentBackground" />
+				<div className="col-6 contentBackground">
+					<h3>Vexblockation</h3>
+					<div className="row">
+						<div className="col-6">
+							<p>
+								The first ever video game I submitted into the competition, being also the first game I ever publicly released.
+								Vexblockation is a platformer game with the premise of vexing, or angering, the player.
+								It does this by cheap-shotting the player with invisible walls, hidden traps, and difficult-to-avoid hazards.
+								That's basically all it is: just a series of difficult levels for the player to complete.
+							</p>
+						</div>
+						<div className="col-6">
+							<img id="VexblockationImage" src={vexblockation} alt="Vexblockation" className="img-fluid object-fit-contain my-1"></img>
+						</div>
+					</div>
+					<p>
+						There's a lot I want to say about this video game.
+						Firstly, I don't know why I made it so unfair.
+						The movement in this game is absolutely atrocious as I feel like I'm skating all over the place.
+						There are some very janky behavior with the Construct 2 engine that I also refused to acknowledged, 
+							like the weird interactions the player can have with the yellow enemies when they spawn, or the moving blocks and their collisions.
+						I also remember that I had the quality of the game "art" upped in my client, but it wasn't how it would be displayed if published.
+						As such, I really hate how the game looks as it does now; which would of been really easily fixed if I had accounted for it beforehand.
+					</p>
+					<p>
+						However, I will say that being my first game, I'm proud of it.
+						
+					</p>
+				</div>
+				<div className="col-1 contentBackground" />
+				<div className="col-2" />
+			</div>
+			<div className="row">
+				<div className="col-2" />
+				<div className="col-1 contentBackground" />
+				<div className="col-3 contentBackground">
+					<h3>Blocker</h3>
+				</div>
+				<div className="col-3 contentBackground">
+					<p>Testing</p>
+				</div>
+				<div className="col-1 contentBackground" />
+				<div className="col-2" />
+			</div>
+			<div className="row">
+				<div className="col-2" />
+				<div className="col-1 contentBackground" />
+				<div className="col-3 contentBackground">
+					<h3>ENTER</h3>
+				</div>
+				<div className="col-3 contentBackground">
+					<p>Testing</p>
+				</div>
+				<div className="col-1 contentBackground" />
+				<div className="col-2" />
+			</div>
+			<div className="row">
+				<div className="col-2" />
 				<div className="col-4 contentBackground">
-
+					<h1>Reflection</h1>
 				</div>
 				<div className="col-4 contentBackground">
-					
+					<p>Testing</p>
 				</div>
 				<div className="col-2" />
 			</div>
