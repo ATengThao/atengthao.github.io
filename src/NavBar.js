@@ -15,9 +15,9 @@ function NavBar() {
 							<li className="nav-item fs-4 p-3">
 								<Link to="/" className="navContent nav-link">Home</Link>
 							</li>
-							<li className="nav-item fs-4 p-3">
+							{/* <li className="nav-item fs-4 p-3">
 								<Link to="/other" className="navContent nav-link">Other</Link>
-							</li>
+							</li> */}
 						</ul>
 					</div>
 				</div>

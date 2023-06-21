@@ -16,6 +16,9 @@ body {
 	margin: 0;
 	padding: 0;
 }
+.contentBackground {
+	background-color: #4E3636;
+}
 /* Bootstrap */
 :root {
 	--bs-primary: #116d6e;

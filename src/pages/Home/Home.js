@@ -7,9 +7,13 @@ import HomeContent from "./HomeContent";
 function Home() {
 	return (
 		<>
-		<NavBar />
-		<HomeContent />
-		<Footer />
+		<div className="d-flex flex-column h-100">
+			<NavBar />
+			<div className="flex-grow-1">
+				<HomeContent />
+			</div>
+			<Footer />
+		</div>
 		</>
 	)
 };

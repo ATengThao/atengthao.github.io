@@ -12,6 +12,6 @@ ul, a {
 	height: 100%;
 }
 
-li:hover {
+#navLinks > li:hover {
 	background-color: gray;
 }
