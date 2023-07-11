@@ -1,6 +1,9 @@
 import msDrawing00 from "../../images/mspaint_pc.png";
 import msDrawing01 from "../../images/mspaint_lost.png";
+import msDrawing02 from "../../images/mspaint_winner.png";
 import vexblockation from "../../images/games/vexblockation.png";
+import blocker from "../../images/games/blocker.png";
+import enter from "../../images/games/enter.png";
 
 const gotGameURL = "https://www.stemfuse.com/GOTGame";
 const gameitURL = "https://www.stemfuse.com/product/GAMEIT";
@@ -106,7 +109,11 @@ function GotGameContent() {
 					</p>
 					<p>
 						However, I will say that being my first game, I'm proud of it.
-						
+						Seeing this game again represents what I care for when it comes to developing video games:
+							interesting and fun mechanics alongside intriguing level design.
+						Making walls climbable, spawning enemies from the water, moving projectiles, and more; all of it really makes everything a lot more interesting and engaging.
+						Although it is a platformer, I am glad to have add my own spice to it.
+						I am pleasantly happy about it being in second place, the reward being a $50 prize at the time.
 					</p>
 				</div>
 				<div className="col-1 contentBackground" />
@@ -115,11 +122,36 @@ function GotGameContent() {
 			<div className="row">
 				<div className="col-2" />
 				<div className="col-1 contentBackground" />
-				<div className="col-3 contentBackground">
+				<div className="col-6 contentBackground">
 					<h3>Blocker</h3>
-				</div>
-				<div className="col-3 contentBackground">
-					<p>Testing</p>
+					<div className="row">
+						<div className="col-6">
+							<p>
+								After making Vexblockation, I was really stumped on what I wanted to do next.
+								The problem I had was that I didn't want to make another platformer game, but I just didn't know what else to do either in the Construct 2 engine.
+								This is where my experimentations came in, and I found that it could be quite amusing to see an object bounce from a collision.
+							</p>
+						</div>
+						<div className="col-6">
+							<img id="BlockerImage" src={blocker} alt="Blocker" className="img-fluid object-fit-contain my-1"></img>
+						</div>
+					</div>
+					
+					<p>
+						Thus comes Blocker, a game where blocks periodically spawn and move from one side of the screen to the other.
+						The objective here is that the player has a block of their own to prevent it from happening.
+						This block can be moved by the player and be used to overlap other blocks to wither them down.
+						Eventually, the amounts of blocks spawning will be too much for the player to handle, and they will lose the game.
+						There is no way of winning, but you can try to get the highest points possible.
+					</p>
+
+					<p>
+						I remember how happy I was for making Blocker, despite how simple it was.
+						The concept of the game felt unique to me even though it wasn't really perfect.
+						Maybe I was just happy that I didn't make another platformer, that I can prove I can be creative and think outside the box.
+						Or possibly it was because I didn't spend as much time on this as I did on Vexblockation, and it was still able to get into 3rd place.
+						If someone were to ask me if I liked this game better than Vexblockation, I would say yes; even though it has only won me a prize of $25.
+					</p>
 				</div>
 				<div className="col-1 contentBackground" />
 				<div className="col-2" />
@@ -127,11 +159,42 @@ function GotGameContent() {
 			<div className="row">
 				<div className="col-2" />
 				<div className="col-1 contentBackground" />
-				<div className="col-3 contentBackground">
+				<div className="col-6 contentBackground">
 					<h3>ENTER</h3>
-				</div>
-				<div className="col-3 contentBackground">
-					<p>Testing</p>
+					<div className="row">
+						<div className="col-6">
+							<p>
+								The years went by and soon enough I was a senior in highschool.
+								This would be the final year I could submit something into the competition, and I was running out of creativity at the time.
+								The previous competition I had entered had a game I put a lot of care and work in; one that I very much liked.
+								When I discovered that it didn't even get on the list of games that could get top three, I was genuinuely disheartened.
+								Honestly, I didn't want to make another game anymore afterwards since I had felt like I was burnt out.
+								However, this year's competition became significantly more impressive due to the unexpected increase of the first place reward.
+								The previous years were either one-hundred to one-hundred and fifty five dollars, this time it was five-hundred.
+								At that point, I had to enter the competition - no pun intended.
+								Still, I had no idea what video game to make; so I looked at my previous games.
+							</p>
+						</div>
+						<div className="col-6">
+							<img id="EnterImage" src={enter} alt="Enter" className="img-fluid object-fit-contain my-1"></img>
+						</div>
+					</div>
+					<p>
+						ENTER became my final ever submission in the GOT Games competition.
+						After taking a look again at my first submitted game, Vexblockation, I knew I had to apply what I learned thus far to make a better platformer.
+						Unlike Vexblockation, this game wouldn't be trying to infuriate the player with cheap tricks - though it would definitely still be challenging and difficult.
+						The premise was still the same: overcome the obstacles and get to the end of the level to go onto the next.
+						What made this game different is the emphasis on the player's speed; a concept one would be familiar with if they had ever played Sonic.
+						The more the player would run in one direction, the more speed they would build up until they stopped moving.
+						Combining this speed with various environment obstructions and hazards, I had an interesting platformer game.
+					</p>
+					<p>
+						Honestly, I did not expect my game to reach the top ten - nor did I expect it to get first place.
+						When I got into first place, I was legitimately confused: I don't think I had much appreciation for this game up until that point.
+						Compared to the other games; they had more art, sound, and interesting designs.
+						To this day, I do not fully know why I won; my only guess being the sheer amount of block-code I added in the game, going complete ham on the mechanics and behaviors of everything.
+						That being said, ENTER is a game I'm proud of not because of the money it won, but because of the personal growth: the culmination of everything I had learned in the club.
+					</p>
 				</div>
 				<div className="col-1 contentBackground" />
 				<div className="col-2" />
@@ -140,9 +203,33 @@ function GotGameContent() {
 				<div className="col-2" />
 				<div className="col-4 contentBackground">
 					<h1>Reflection</h1>
+					<p>
+						Joining the video game club in highschool was one of the best choices I could of made.
+						I had always wanted to make video games, and that club got me onto that path.
+						It was the perfect introduction, and because of it I knew for certain that this was the thing I wanted to do in life.
+						Though none of the games I had made are personally satisfying to me, each one of them helped my growth in game design and furthered my love for making video games.
+					</p>
+					<p>
+						Looking at my accomplishments, it's wild to believe that I have come in first, second, third, and none at all.
+						Up until ENTER, I had always been very confident of my games.
+						That's funny for me to say, since ENTER was the one that came in first place.
+						I knew that my strength, when it came to video game design, lied in gameplay and mechanics.
+						Those were, to me, what made a video game fun: having the ability to control your character in different ways and have it interact with the surrounding environment.
+						It was creativity though that I think made me so confident.
+						If you had asked me back when our games were being judged if I honestly thought my submitted video game would get into first place for every game other than ENTER, I would of said yes.
+						I had a huge ego, and I really thought my game was more fun than any of the other submissions; which really isn't the case I see now.
+					</p>
+					<p>
+						To this day, I am mostly unsatisfied with all of my submitted games.
+						Honestly, I think that's a good thing.
+						I want to keep making games, and replaying these old games of mine keeps on telling me to carry on.
+						When I see them, they scream potential; that if I could design these kinds of games at a young age, it'll get me far in the gaming industry.
+						So that's what I'm gonna keep doing, and hopefully it'll get me somewhere nice someday in life.
+					</p>
 				</div>
 				<div className="col-4 contentBackground">
-					<p>Testing</p>
+					<img id="MSDrawing02" src={msDrawing02} alt="GOT GAME Competition Winner" className="img-fluid"></img>
+					<figcaption>Yeah, I'm the best.</figcaption>
 				</div>
 				<div className="col-2" />
 			</div>
