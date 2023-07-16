@@ -16,7 +16,7 @@ function NavBar() {
 								<Link to="/" className="navContent nav-link">Home</Link>
 							</li>
 							<li className="nav-item fs-4 p-3">
-								<Link to="" className="navContent nav-link">Resume</Link>
+								<a href="/pdf/AndyThaoResume2023v3.pdf" className="navContent nav-link" target="_blank">Resume</a>
 							</li>
 						</ul>
 					</div>
